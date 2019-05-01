@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/title_image_bugmasher"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/title_image_bugmasher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_play"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="420dp"
+            android:layout_marginRight="200dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0.09"
+            android:background="@drawable/play_game_button" />
+
+        <Button
+            android:id="@+id/button_highScore"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="200dp"
+            android:layout_marginBottom="25dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/high_score_button" />
+    </LinearLayout>
+</RelativeLayout>

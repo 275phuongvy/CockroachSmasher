@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:title="HIGH SCORE"
+        android:key="key_highScore"
+        android:selectable="false"/>
+    <Preference
+        android:title="Settings"
+        android:selectable="false"/>
+    <CheckBoxPreference
+        android:title="Play Background Music"
+        android:key="key_music_enabled"
+        android:defaultValue="true"/>
+</PreferenceScreen>
