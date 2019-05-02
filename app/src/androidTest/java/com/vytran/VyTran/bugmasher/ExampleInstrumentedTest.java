@@ -1,4 +1,4 @@
-package com.example.hm13_stacruz.bugmasher;
+package com.vytran.VyTran.bugmasher;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
