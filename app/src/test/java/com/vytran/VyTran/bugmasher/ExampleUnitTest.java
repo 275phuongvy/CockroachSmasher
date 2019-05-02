@@ -1,4 +1,4 @@
-package com.example.hm13_stacruz.bugmasher;
+package com.vytran.VyTran.bugmasher;
 
 import org.junit.Test;
 
